@@ -1,0 +1,26 @@
+/* a vírgula separa cada uma das TAGS , formatando-as de forma independente */
+/* Estilos por tags */
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    margin: 25px auto 0;
+}
+
+/* irá substituir a formatação anterior no table */
+table{
+    width: 100%;
+}
+
+th{
+    background: rgb(226, 43, 156);
+    color: #fff;
+}
+
+/* o td que tá dentro do tr que está dentro do tfoot, quando coloco sem vírgula é que eu estou formatando somente o tr e o td do tfoot e não todos os tr e td */
+tfoot tr td{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(196, 26, 145);
+}

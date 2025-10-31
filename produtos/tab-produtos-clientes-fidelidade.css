@@ -1,0 +1,52 @@
+html{
+    /* peso de fonte */
+    font-weight: 400; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    /* junta as bordas da tabela */
+    border-collapse: collapse;
+    width: 80%;
+    margin: 25px auto;
+    background-color: rgb(235, 199, 224);
+    border: 2px solid;
+}
+
+th, td{
+    padding: 8px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: 2px solid;
+}
+
+th{
+    background-color: rgb(226, 173, 204);
+    font-weight: bold;
+}
+
+/* : é pseudo classe (evenn = todas as linhas da tabela que forem pares receberá essa formatação */
+tr:nth-child(even){
+    background-color: rgb(204, 90, 179);
+}
+
+
+tr:nth-child(odd){
+    background-color: rgb(236, 187, 208);
+}
+
+caption{
+    background-color: rgb(206, 29, 126);
+    padding: 10px;
+    font-size: larger;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+.altura{
+    height: 200px;
+}
+
+tfoot tr td{
+    background-color: rgb(163, 131, 192);
+}
